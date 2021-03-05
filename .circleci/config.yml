@@ -44,6 +44,7 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - run: echo "okay"
+      - run: firebase
 workflows:
   version: 2
   one_and_two:
