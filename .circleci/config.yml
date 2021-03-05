@@ -38,7 +38,7 @@ jobs:
           fi
   three:
     docker:
-      - image: circleci/ruby:2.4.1
+      - image: devillex/docker-firebase
         auth:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD
